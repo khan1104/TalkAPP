@@ -1,50 +1,114 @@
-# Welcome to your Expo app 👋
+# 💬 TALK – Multilingual Chat Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Your Words, Their Language – TALK Makes It Happen**
 
-## Get started
+TALK is a real-time, multilingual chat application designed to break language barriers and make communication seamless across the globe. Built with simplicity, speed, and privacy in mind.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-2. Start the app
+### 🔐 Authentication
+- Sign Up & Log In securely
+- Forgot Password (via email OTP)
+- Change Password
+- Delete Account
 
-   ```bash
-    npx expo start
-   ```
+### 👤 Profile Management
+- Change Profile Image
+- Update Bio & Preferred Language
+- Logout
 
-In the output, you'll find options to open the app in a
+### 💬 Chat System
+- Real-time messaging
+- Language translation using **Google Translate API**
+- Clean, minimal UI
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### ⚙️ Settings & Feedback
+- Change App Language
+- Send Feedback to Developer
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### ⚠️ Bad Word Detection 
+- detect inappropriate or offensive words in chat messages
+- convert inappropriate or offensive into (****)
+---
 
-## Get a fresh project
+## 🛠️ Tech Stack
 
-When you're ready, run:
+| Layer       | Technology                        |
+|-------------|------------------------------------|
+| **Frontend**| React Native (Expo) |
+| **Backend** | Python Flask, SMTP (for OTP)       |
+| **Translation** | `googletrans` (Google Translate)|
+| **Database**| Firebase (Firestore),(Storage)             |
+
+---
+
+
+---
+
+## 🧑‍💻 Developed By
+
+**Khan Irfan** – Computer Science Graduate & Passionate Developer.
+Designed and developed TALK independently to bridge language gaps and foster global conversations 🌐
+
+---
+
+## 📸 Screenshots
+<div align="center">
+<img src="https://github.com/user-attachments/assets/46ebc582-817c-4c72-8ff5-5c491d5585b2" width="220" height="450"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/user-attachments/assets/6284b13f-8ae0-46d3-902d-9e69744a1455" width="220" height="450"/>
+</div>
+
+
+## 📦 Future Plans
+
+- **Integration of Multimedia Support:** Allow users to share images, videos, and documents within the chat.
+- **Voice and Video Communication:** Introduce voice and video call features with real-time translation capabilities.
+- **Multi-User Chatrooms:** Introduce group chats with translation features for collaborative conversations.
+
+---
+
+> **"TALK – Need to chat in Spanish? No worries! Just type, 
+and we’ll handle the rest!"**
+
+## 🛠️ Getting Started
+
+Follow these steps to run the TALK app locally on your device:
+
+### 📦 Prerequisites
+- Node.js and npm installed
+- Expo CLI installed globally (`npm install -g expo-cli`)
+- Android/iOS emulator **OR** Expo Go app installed on your physical device
+
+---
+
+### 🚀 Run the App
 
 ```bash
-npm run reset-project
+# 1. Clone the repository
+git clone https://github.com/your-username/TALK.git
+
+# 2. Navigate to the project directory
+cd TALK
+
+# 3. Install the dependencies
+npm install
+
+# 4. Start the development server
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# important
+## Install the given googletrans package
+```bash
+pip install googletrans==4.0.0rc1
+```
+# Note
+>open the config.js file add your credential 
+# Run the backend before running the application
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
