@@ -13,7 +13,7 @@ const firebaseConfig = {
     // measurementId:
 };
 
-const IP = "192.168.68.3";   //replace with your actual ip or backend host url
+const IP = "192.33.41.2";   //replace with your actual ip or backend host url
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const storage = getStorage(app);
