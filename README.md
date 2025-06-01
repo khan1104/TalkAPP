@@ -99,11 +99,6 @@ npm install
 npx expo start
 ```
 
-# important
-## Install the given googletrans package
-```bash
-pip install googletrans==4.0.0rc1
-```
 # Note
 >open the config.js file add your credential 
 # Run the backend before running the application
